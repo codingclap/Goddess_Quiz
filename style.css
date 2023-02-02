@@ -226,7 +226,7 @@
   overflow: hidden;
   background-color: #fff;
   cursor: pointer;
-  transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
   border: 1px solid var(--primary-color);
   border-radius: 50px;
   font-family: 'MuseoSansRounded500';
@@ -352,7 +352,7 @@
   background-color: #7d1648;
   border: 2px solid #f68e1e;
   border-radius: 12px;
-  padding: 3% 0;
+  padding: 4% 3%;
 }
 
 .stuck_result_text h3 {
@@ -410,6 +410,7 @@
   margin: 40px 0;
   cursor: pointer;
 }
+ 
 
 .hal-link {
   width: 50%;
@@ -447,7 +448,16 @@
   line-height: 0;
 }
 
+.stuck_main_container .resource-heading{
+  position: relative;
+  font-size: 18px;
+  font-family: "Cabin-Regular";
+  color:#f0891e;
+}
+ 
+
 @media screen and (max-width: 400px) {
+  
   .stuck_result_text p {
     font-size: 14px;
     line-height: 22px;
@@ -490,6 +500,14 @@
 }
 
 @media screen and (max-width: 768px) {
+  .hal-link {
+    width: 90%; 
+    margin-top: 0px;
+  }
+  .res-link{
+    gap:0;
+    flex-wrap: wrap; 
+  }
   .stuck_result::after {
     bottom: -65px;
   }
