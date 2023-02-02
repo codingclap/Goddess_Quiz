@@ -461,9 +461,31 @@
 #resource-mobile{
   display: none;
 }
-
+@media screen and (max-width: 500px) {
+  .stuck .stuck_heading h1 {
+    font-size: 40px ! important;
+  }
+  .stuck .stuck_heading img{
+    margin-top: 12px;
+  }
+  .stuck_text p{
+    margin-top: 10px;
+  }
+  .stuck_main_container .options{
+    flex-grow: 0.8;
+  }
+  .stuck_text p {
+    line-height: 26px;
+}
+.stuck_result_text p{
+  line-height: 26px;
+}
+.stuck_main_container .slide{
+  gap: 0.5em;
+}
+}
 @media screen and (max-width: 400px) {
-  
+    
   .stuck_result_text p {
     font-size: 14px;
     line-height: 22px;
