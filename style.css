@@ -162,11 +162,11 @@
 }
 
 #main-container {
-  animation: fade 2s ease-in-out;
+  animation: fade 1.5s ease-in-out;
 }
 
 .slide[data-active="true"] {
-  animation: fade 2s ease-in-out;
+  animation: fade 1.5s ease-in-out;
 }
 
 .slide[data-active="false"] {
