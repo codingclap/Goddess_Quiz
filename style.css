@@ -455,6 +455,12 @@
   color:#f0891e;
 }
  
+#resource-desktop{
+  display: block;
+}
+#resource-mobile{
+  display: none;
+}
 
 @media screen and (max-width: 400px) {
   
@@ -497,9 +503,17 @@
     right: 70px;
     width: 90%;
   }
+
+  
 }
 
 @media screen and (max-width: 768px) {
+  #resource-desktop{
+    display: none;
+  }
+  #resource-mobile{
+    display: block;
+  }
   .hal-link {
     width: 90%; 
     margin-top: 0px;
