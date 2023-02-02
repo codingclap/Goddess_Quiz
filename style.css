@@ -232,6 +232,7 @@
   font-family: 'MuseoSansRounded500';
   font-weight: 500;
   font-size: 17px;
+  height:48px;
 }
 
 .stuck_main_container .options .option:hover {
@@ -246,7 +247,7 @@
 .stuck_main_container .options .option label {
   cursor: pointer;
   width: 100%;
-  padding: 13px 100px;
+  padding: 22px 100px;
 }
 
 .stuck_main_container .options input[type="radio"]:checked+label {
@@ -317,7 +318,7 @@
 .stuck_main_container .stuck_slider_question {
   display: flex;
   width: 100%;
-  max-width: 600px;
+  max-width: 620px;
   justify-content: center;
   align-items: center;
 }
@@ -527,7 +528,7 @@
   .stuck_main_container .options .option label {
     cursor: pointer;
     width: 100%;
-    padding: 12px 30px;
+    padding: 22px 30px;
   }
 }
 
@@ -575,7 +576,7 @@
   .stuck_main_container .options .option label {
     cursor: pointer;
     width: 100%;
-    padding: 10px 16px;
+    padding: 22px 16px;
   }
 
 

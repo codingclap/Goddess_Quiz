@@ -452,6 +452,7 @@
     </div>
 
     <script>
+
         var elem = document.querySelectorAll('.option');
         let arr = 0;
         for (let i = 0; i < elem.length; i++) {
@@ -489,6 +490,9 @@
                     current_question.setAttribute('data-value', '');
                     document.getElementById('calculate_score').style = "display:block";
                     document.getElementById('calculate_score').setAttribute('data-value', arr);
+
+                    var focus_btn = document.getElementById('calculate_score');
+                    focus_btn.scrollIntoView();
                 } else {
 
                     document.getElementById(next).setAttribute('data-active', 'true');
